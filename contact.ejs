@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mubariz Mustafa Personal Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .contact-form button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .contact-form {
+        margin: 20px;
+      }
+    }
+  </style>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Mubariz Mustafa </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/favorite_personalities">Favorite Personalities</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/favorite_cities">Favorite Cities</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/favorite_tourist_spots">Favorite Tourist Spots</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="/contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
+    <!-- Content -->
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <footer class="footer bg-dark text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Contact Information</h5>
+              <p>Email: your.email@example.com</p>
+              <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+              <h5>Follow Me</h5>
+              <a href="https://www.facebook.com/yourfacebook" target="_blank" class="social-icon"><i class="fab 
+    fa-facebook"></i></a>
+              <a href="https://www.twitter.com/yourtwitter" target="_blank" class="social-icon"><i class="fab 
+    fa-twitter"></i></a>
+              <a href="https://www.instagram.com/yourinstagram" target="_blank" class="social-icon"><i class="fab 
+    fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript to load content dynamically -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
